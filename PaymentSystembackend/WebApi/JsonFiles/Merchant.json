@@ -1,0 +1,38 @@
+[
+	{
+		"NationalId": "123456789",
+		"Name": "John",
+		"Surname": "Doe",
+		"DateOfBirth": "1990-01-01",
+		"CustomerNumber": "CUST123",
+		"TransactionHistory": [
+			{
+				"Description": "Purchase at Store A",
+				"Amount": 50.00,
+				"TransactionDate": "2024-05-01T08:00:00",
+				"IsSuccessful": true
+			},
+			{
+				"Description": "Payment for Subscription",
+				"Amount": 10.00,
+				"TransactionDate": "2024-05-10T10:00:00",
+				"IsSuccessful": true
+			}
+		]
+	},
+	{
+		"NationalId": "987654321",
+		"Name": "Jane",
+		"Surname": "Smith",
+		"DateOfBirth": "1985-06-15",
+		"CustomerNumber": "CUST456",
+		"TransactionHistory": [
+			{
+				"Description": "Online Purchase",
+				"Amount": 100.00,
+				"TransactionDate": "2024-05-05T15:30:00",
+				"IsSuccessful": true
+			}
+		]
+	}
+]
